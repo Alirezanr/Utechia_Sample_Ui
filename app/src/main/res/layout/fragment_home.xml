@@ -96,22 +96,12 @@
             android:backgroundTint="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <!--
-                <com.google.android.material.tabs.TabLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="5dp"
-                    android:layout_margin="@dimen/dimen_10_dp"
-                    android:background="@color/transparent"
-                    app:tabBackground="@drawable/home_view_pager_tab_selector"
-                    app:tabGravity="center"
-                    app:tabIndicatorHeight="0dp" />-->
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tab_layout"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/dimen_10_dp"
-            android:layout_marginTop="12dp"
+            android:layout_height="@dimen/dimen_16_dp"
+            android:layout_margin="@dimen/dimen_4_dp"
             android:background="@color/transparent"
             app:layout_constraintBottom_toBottomOf="@+id/vp_gallery"
             app:layout_constraintEnd_toEndOf="@id/vp_gallery"

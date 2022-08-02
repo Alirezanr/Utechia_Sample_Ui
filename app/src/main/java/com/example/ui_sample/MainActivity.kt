@@ -17,6 +17,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        setupUi()
+    }
+
+    private fun setupUi() {
+        with(binding){
+            bottomNavigationMain.menu.findItem(R.id.nav_hidden_option).isEnabled = false
+        }
     }
 
 
