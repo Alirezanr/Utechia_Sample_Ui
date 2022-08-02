@@ -3,11 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable-v24/home_tab_indicator_default_dop.xml" value="0.1215" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable-v24/home_tab_indicator_selected_dop.xml" value="0.1215" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable-v24/home_tab_indicator_unselected_dop.xml" value="0.1215" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable-v24/ic_logo_haremaltin.xml" value="0.1215" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable-v24/shape_rounded_bottom_corners.xml" value="0.1215" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable-v24/shape_rounded_corners.xml" value="0.1215" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/home_view_pager_tab_selector.xml" value="0.181" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/ic_logo_haremaltin.xml" value="0.1215" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/shape_rounded_corners_except_bottom_left.xml" value="0.1825" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/shape_simpe_circle.xml" value="0.1215" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/shape_some_background.xml" value="0.1215" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/tab_selector.xml" value="0.1215" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/vector_action_bar_background.xml" value="0.181" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/font/rubik_mono_one.xml" value="0.225" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/layout/fragment_home.xml" value="0.35267857142857145" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/layout/item_home_gallery.xml" value="0.22" />
       </map>
     </option>
   </component>
