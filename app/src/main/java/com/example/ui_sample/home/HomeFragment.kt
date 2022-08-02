@@ -4,12 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.ui_sample.MainActivity
 import com.example.ui_sample.R
 import com.example.ui_sample.databinding.FragmentHomeBinding
+import com.example.ui_sample.util.toPriceFormat
 import com.google.android.material.tabs.TabLayoutMediator
 
 class HomeFragment : Fragment() {
@@ -19,7 +19,8 @@ class HomeFragment : Fragment() {
     private val binding get() = _binding!!
 
 
-    private var pageAdapter: HomeGalleryPageAdapter? = null
+    private var galleryPageAdapter: HomeGalleryPageAdapter? = null
+    private var stocksAdapter: HomeStockAdapter? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,27 +39,59 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         setupUi()
+        setupClickListeners()
+    }
+
+    private fun setupClickListeners() {
+        with(binding) {
+            txtViewMore.setOnClickListener {
+                Toast.makeText(requireContext(), "View More", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 
     private fun setupUi() {
         (requireActivity() as MainActivity).changeStatusBarColor(R.color.blue_300)
-        setupViewPager()
         with(binding) {
 
         }
+        setupStocksList()
+        setupViewPager()
+    }
+
+    private fun setupStocksList() {
+        stocksAdapter = HomeStockAdapter { stock ->
+            Toast.makeText(
+                requireContext(),
+                "Stock name :${stock.stockName}\nStock price:${stock.stockPrice.toPriceFormat()} TL",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
+        binding.rvStockList.adapter = stocksAdapter
+
+        val stockList = listOf("Gold", "USDT", "ONS", "EUR", "BTC")
+        stocksAdapter?.upDateDataSet(
+            List(15) {
+                StockData(
+                    id = it,
+                    stockName = stockList.random(),
+                    stockPrice = (500..2000).random().toDouble()
+                )
+            }
+        )
     }
 
     private fun setupViewPager() {
-        pageAdapter = HomeGalleryPageAdapter()
+        galleryPageAdapter = HomeGalleryPageAdapter()
         with(binding) {
-            vpGallery.adapter = pageAdapter
+            vpGallery.adapter = galleryPageAdapter
 
             TabLayoutMediator(tabLayout, vpGallery) { tab, position ->
             }.attach()
 
         }
 
-        pageAdapter?.upDateDataSet(
+        galleryPageAdapter?.upDateDataSet(
             List(size = 4) {
                 GalleyData(
                     id = it,

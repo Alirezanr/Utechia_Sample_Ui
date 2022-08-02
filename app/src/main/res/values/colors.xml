@@ -13,4 +13,6 @@
     <color name="blue_300">#5778A3</color>
     <color name="blue_300_opacity_30">#305778A3</color>
     <color name="semi_black">#313131</color>
+    <color name="bright_gray">#EEEEEE</color>
+    <color name="dark_liver">#505050</color>
 </resources>

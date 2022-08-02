@@ -4,4 +4,5 @@
     <string name="sponsored_by">Sponsored by Haremaltin</string>
     <string name="view_more">View More</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque blanditiis cum debitis dicta excepturi facere, laboriosam natus officiis omnis perspiciatis possimus, quaerat quibusdam sapiente, sint tempore temporibus veniam vero.</string>
+    <string name="lira">%1$s TL</string>
 </resources>
