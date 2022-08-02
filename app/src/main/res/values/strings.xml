@@ -5,4 +5,10 @@
     <string name="view_more">View More</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque blanditiis cum debitis dicta excepturi facere, laboriosam natus officiis omnis perspiciatis possimus, quaerat quibusdam sapiente, sint tempore temporibus veniam vero.</string>
     <string name="lira">%1$s TL</string>
+    <string name="my_sector_business">Sektorum İş</string>
+    <string name="export">ihracat</string>
+    <string name="magazine">Magazin</string>
+    <string name="directory">Rehber</string>
+    <string name="real_estate">Emlak</string>
+    <string name="my_sector_market">Sektorum Pazar</string>
 </resources>

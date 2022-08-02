@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HomeTextViewStyle"  >
+        <item name="android:textColor">@color/blue_300</item>
+        <item name="android:textSize">@dimen/dimen_16_sp</item>
+        <item name="android:fontFamily">@font/gilroy_bold</item>
+    </style>
+
+</resources>

@@ -148,4 +148,180 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.5" />
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0_dp"
+        android:layout_marginBottom="@dimen/dimen_26_dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/dimen_16_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_horizontal_50_percent">
+
+        <LinearLayout
+            android:layout_width="@dimen/dimen_0_dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/dimen_4_dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0_dp"
+                android:layout_weight="7"
+                android:background="@drawable/shape_rounded_corners"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_oval_with_gradient"
+                    android:padding="30dp"
+                    app:srcCompat="@drawable/ic_sector_business" />
+
+                <TextView
+                    style="@style/HomeTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_16_dp"
+                    android:gravity="center"
+                    android:text="@string/my_sector_business" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0_dp"
+                android:layout_marginVertical="@dimen/dimen_8_dp"
+                android:layout_weight="2"
+                android:background="@drawable/shape_rounded_corners"
+                android:backgroundTint="@color/white"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="@dimen/dimen_16_dp"
+                    android:layout_marginVertical="@dimen/dimen_10_dp"
+                    app:srcCompat="@drawable/ic_export" />
+
+                <TextView
+                    style="@style/HomeTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/export" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0_dp"
+                android:layout_weight="2"
+                android:background="@drawable/shape_rounded_corners"
+                android:backgroundTint="@color/white"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="@dimen/dimen_16_dp"
+                    android:layout_marginVertical="@dimen/dimen_10_dp"
+                    app:srcCompat="@drawable/ic_magazine" />
+
+                <TextView
+                    style="@style/HomeTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/magazine" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dimen_0_dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dimen_4_dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0_dp"
+                android:layout_weight="2"
+                android:background="@drawable/shape_rounded_corners"
+                android:backgroundTint="@color/white"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="@dimen/dimen_16_dp"
+                    android:layout_marginVertical="@dimen/dimen_10_dp"
+                    app:srcCompat="@drawable/ic_directory" />
+
+                <TextView
+                    style="@style/HomeTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/directory" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0_dp"
+                android:layout_marginVertical="@dimen/dimen_8_dp"
+                android:layout_weight="2"
+                android:background="@drawable/shape_rounded_corners"
+                android:backgroundTint="@color/white"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="@dimen/dimen_16_dp"
+                    android:layout_marginVertical="@dimen/dimen_10_dp"
+                    app:srcCompat="@drawable/ic_real_state" />
+
+                <TextView
+                    style="@style/HomeTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/real_estate" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0_dp"
+                android:layout_weight="7"
+                android:background="@drawable/shape_rounded_corners"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_oval_with_gradient"
+                    android:padding="30dp"
+                    app:srcCompat="@drawable/ic_my_sector_market" />
+
+                <TextView
+                    style="@style/HomeTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_16_dp"
+                    android:gravity="center"
+                    android:text="@string/my_sector_market" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
