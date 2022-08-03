@@ -6,44 +6,76 @@
     android:layout_height="match_parent"
     android:background="@color/background">
 
-    <FrameLayout
+    <View
         android:id="@+id/topBar"
         android:layout_width="match_parent"
-        android:layout_height="?android:attr/actionBarSize"
-        android:background="@drawable/vector_action_bar_background"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="@dimen/dimen_100_dp"
+        android:background="@color/blue_300"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginStart="16dp"
-            android:fontFamily="@font/gilroy_semibold"
-            android:text="@string/hello_omid_mahmoudi"
-            android:textColor="#FFFFFF"
-            android:textSize="@dimen/dimen_16_sp" />
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/dimen_16_dp"
+        android:fontFamily="@font/gilroy_semibold"
+        android:text="@string/hello_omid_mahmoudi"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/dimen_16_sp"
+        app:layout_constraintBottom_toBottomOf="@id/topBar"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatImageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/topBar" />
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|center_vertical"
-            android:layout_marginEnd="@dimen/dimen_16_dp"
-            app:srcCompat="@drawable/ic_settings" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="@dimen/dimen_6_dp"
+        android:padding="@dimen/dimen_10_dp"
+        app:layout_constraintBottom_toBottomOf="@id/txt_welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/txt_welcome"
+        app:layout_constraintTop_toTopOf="@id/txt_welcome"
+        app:srcCompat="@drawable/ic_settings" />
 
-    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/dimen_160_dp"
+        android:layout_height="@dimen/dimen_160_dp"
+        android:layout_marginBottom="@dimen/dimen_8_dp"
+        android:background="@drawable/shape_simple_circle"
+        android:backgroundTint="@color/white_opacity_8"
+        app:layout_constraintBottom_toBottomOf="@id/topBar"
+        app:layout_constraintEnd_toStartOf="@id/topBar"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/dimen_160_dp"
+        android:layout_height="@dimen/dimen_160_dp"
+        android:background="@drawable/shape_simple_circle"
+        android:backgroundTint="@color/white_opacity_8"
+        app:layout_constraintTop_toTopOf="@id/topBar"
+        app:layout_constraintStart_toEndOf="@id/topBar"
+        app:layout_constraintEnd_toEndOf="@id/topBar" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_stock_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="16dp"
         android:background="@drawable/shape_rounded_corners_except_bottom_left"
         android:orientation="horizontal"
         android:paddingTop="@dimen/dimen_10_dp"
         android:paddingBottom="@dimen/dimen_4_dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintTop_toBottomOf="@id/txt_welcome"
+        android:layout_marginTop="@dimen/dimen_32_dp"
         tools:itemCount="10"
         tools:listitem="@layout/item_home_stock">
 
@@ -136,7 +168,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_percent="0.6" />
 
 
     <LinearLayout
@@ -165,9 +197,9 @@
                 android:orientation="vertical">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/shape_oval_with_gradient"
+                    android:background="@drawable/ic_circle_with_leveled_gradient"
                     android:padding="30dp"
                     app:srcCompat="@drawable/ic_sector_business" />
 
@@ -297,9 +329,9 @@
                 android:orientation="vertical">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/shape_oval_with_gradient"
+                    android:background="@drawable/ic_circle_with_leveled_gradient"
                     android:padding="30dp"
                     app:srcCompat="@drawable/ic_my_sector_market" />
 

@@ -11,4 +11,8 @@
     <string name="directory">Rehber</string>
     <string name="real_estate">Emlak</string>
     <string name="my_sector_market">Sektorum Pazar</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
 </resources>

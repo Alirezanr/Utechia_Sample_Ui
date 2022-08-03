@@ -8,10 +8,14 @@
     <dimen name="dimen_14_dp">14dp</dimen>
     <dimen name="dimen_16_dp">16dp</dimen>
     <dimen name="dimen_26_dp">26dp</dimen>
-    <dimen name="dimen_60_dp">65dp</dimen>
+    <dimen name="dimen_60_dp">60dp</dimen>
 
     <dimen name="dimen_10_sp">10sp</dimen>
     <dimen name="dimen_12_sp">12sp</dimen>
     <dimen name="dimen_14_sp">14sp</dimen>
     <dimen name="dimen_16_sp">16sp</dimen>
+    <dimen name="dimen_100_dp">100dp</dimen>
+    <dimen name="dimen_6_dp">6dp</dimen>
+    <dimen name="dimen_160_dp">160dp</dimen>
+    <dimen name="dimen_32_dp">32dp</dimen>
 </resources>

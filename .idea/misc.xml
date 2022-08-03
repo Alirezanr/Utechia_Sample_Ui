@@ -15,9 +15,11 @@
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable-v24/shape_rounded_bottom_corners.xml" value="0.1215" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable-v24/shape_rounded_corners.xml" value="0.1215" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable-v24/some_gradient.xml" value="0.18" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/background_bottom_navigation.xml" value="0.231" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.1225" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/home_view_pager_tab_selector.xml" value="0.181" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/ic_bottom_navigation_center_button.xml" value="0.1825" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/ic_circle_with_leveled_gradient.xml" value="0.1825" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/ic_directory.xml" value="0.1825" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/ic_export.xml" value="0.1825" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/ic_home_button_state.xml" value="0.1225" />
@@ -39,7 +41,7 @@
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/drawable/vector_action_bar_background.xml" value="0.181" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/font/rubik_mono_one.xml" value="0.225" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/layout/activity_main.xml" value="0.9" />
-        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/layout/item_home_gallery.xml" value="0.22" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/layout/item_home_stock.xml" value="1.25" />
         <entry key="..\:/Users/AlirezaNr/AndroidStudioProjects/ui_sample/app/src/main/res/menu/bottom_nav_menu.xml" value="0.168359375" />
