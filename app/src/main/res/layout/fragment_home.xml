@@ -114,7 +114,7 @@
         android:layout_height="@dimen/dimen_0_dp"
         android:layout_marginHorizontal="@dimen/dimen_16_dp"
         android:layout_marginVertical="@dimen/dimen_16_dp"
-        android:background="@drawable/shape_rounded_corners"
+        android:background="@drawable/shape_rounded_corners_16_dp_radius"
         android:backgroundTint="@color/pink_500"
         app:layout_constraintBottom_toTopOf="@id/guideline_horizontal_50_percent"
         app:layout_constraintTop_toBottomOf="@id/linear_sponsor_container">
@@ -124,7 +124,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen_0_dp"
             android:layout_marginBottom="32dp"
-            android:background="@drawable/shape_rounded_corners"
+            android:background="@drawable/shape_rounded_corners_16_dp_radius"
             android:backgroundTint="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -191,7 +191,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dimen_0_dp"
                 android:layout_weight="7"
-                android:background="@drawable/shape_rounded_corners"
+                android:background="@drawable/shape_rounded_corners_10_dp_radius"
                 android:backgroundTint="@color/white"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -208,7 +208,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="@dimen/dimen_16_dp"
                     android:gravity="center"
                     android:text="@string/my_sector_business" />
             </LinearLayout>
@@ -218,7 +217,7 @@
                 android:layout_height="@dimen/dimen_0_dp"
                 android:layout_marginVertical="@dimen/dimen_8_dp"
                 android:layout_weight="2"
-                android:background="@drawable/shape_rounded_corners"
+                android:background="@drawable/shape_rounded_corners_10_dp_radius"
                 android:backgroundTint="@color/white"
                 android:orientation="horizontal">
 
@@ -242,7 +241,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dimen_0_dp"
                 android:layout_weight="2"
-                android:background="@drawable/shape_rounded_corners"
+                android:background="@drawable/shape_rounded_corners_10_dp_radius"
                 android:backgroundTint="@color/white"
                 android:orientation="horizontal">
 
@@ -274,7 +273,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dimen_0_dp"
                 android:layout_weight="2"
-                android:background="@drawable/shape_rounded_corners"
+                android:background="@drawable/shape_rounded_corners_10_dp_radius"
                 android:backgroundTint="@color/white"
                 android:orientation="horizontal">
 
@@ -299,7 +298,7 @@
                 android:layout_height="@dimen/dimen_0_dp"
                 android:layout_marginVertical="@dimen/dimen_8_dp"
                 android:layout_weight="2"
-                android:background="@drawable/shape_rounded_corners"
+                android:background="@drawable/shape_rounded_corners_10_dp_radius"
                 android:backgroundTint="@color/white"
                 android:orientation="horizontal">
 
@@ -323,7 +322,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dimen_0_dp"
                 android:layout_weight="7"
-                android:background="@drawable/shape_rounded_corners"
+                android:background="@drawable/shape_rounded_corners_10_dp_radius"
                 android:backgroundTint="@color/white"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -340,7 +339,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="@dimen/dimen_16_dp"
                     android:gravity="center"
                     android:text="@string/my_sector_market" />
             </LinearLayout>
